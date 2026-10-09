@@ -1,0 +1,1 @@
+{"schema_version":"0.1.0","model_id":"ROM-THERMAL-001","model_version":"0.1.0","units":"SI","parameters":{"heater_capacity_j_k":120.0,"shell_capacity_j_k":900.0,"heater_shell_conductance_w_k":2.8,"shell_ambient_conductance_w_k":0.75,"sensor_tau_s":4.0,"ambient_k":293.15}}

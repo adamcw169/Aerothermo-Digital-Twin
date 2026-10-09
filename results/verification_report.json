@@ -1,0 +1,33 @@
+{
+  "schema_version": "0.1.0",
+  "status": "development_only",
+  "synthetic_data": true,
+  "simulation": {
+    "duration_s": 1200.0,
+    "dt_s": 0.5,
+    "power_w": 40.0,
+    "samples": 2401
+  },
+  "verification": {
+    "max_abs_energy_residual_j": 0.0006025791944921366,
+    "equilibrium_error_k": 0.0
+  },
+  "calibration": {
+    "method": "bounded grid search",
+    "sensor_rmse_k": 0.15647378968521278,
+    "estimated_heater_shell_conductance_w_k": 2.85,
+    "estimated_shell_ambient_conductance_w_k": 0.8250000000000001,
+    "estimated_sensor_bias_k": 0.19054168609838035
+  },
+  "uncertainty": {
+    "method": "Monte Carlo",
+    "samples": 300,
+    "final_sensor_k_p05": 322.08297236100236,
+    "final_sensor_k_median": 323.77831343953795,
+    "final_sensor_k_p95": 325.7789344008103
+  },
+  "environment": {
+    "python": "3.12.14",
+    "platform": "Linux-6.1.158.2-microsoft-standard-x86_64-with-glibc2.38"
+  }
+}

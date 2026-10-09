@@ -1,0 +1,15 @@
+requirements:
+  - id: SYS-001
+    text: Ingest versioned, timestamped thermal observations.
+    status: partial
+  - id: SYS-007
+    text: Support deterministic replay of recorded experiments.
+    status: implemented
+    evidence: tests/test_model.py
+  - id: SYS-009
+    text: Generate machine-readable and human-readable evidence reports.
+    status: implemented
+    evidence: python/creditwin/report.py
+  - id: SYS-010
+    text: Maintain traceability between requirements and evidence.
+    status: partial

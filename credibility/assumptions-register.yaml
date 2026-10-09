@@ -1,0 +1,11 @@
+assumptions:
+  - id: ASM-001
+    statement: Each principal component is spatially isothermal.
+    impact: Internal gradients are not represented.
+    verification: Compare with a higher-fidelity reference model and physical measurements.
+  - id: ASM-002
+    statement: Thermal conductances and capacities are constant.
+    impact: Temperature-dependent material behaviour is excluded.
+  - id: ASM-003
+    statement: Electrical heating power is constant in the baseline case.
+    impact: Supply transients are excluded.

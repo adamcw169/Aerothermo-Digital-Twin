@@ -1,0 +1,16 @@
+requirements:
+  - id: MOD-001
+    text: Conserve energy within a declared tolerance for closed benchmark cases.
+    status: implemented
+    evidence: tests/test_model.py
+  - id: MOD-002
+    text: Represent first-order sensor dynamics.
+    status: implemented
+    evidence: python/creditwin/model.py
+  - id: MOD-003
+    text: Represent uncertain parameters explicitly.
+    status: implemented
+    evidence: python/creditwin/analytics.py
+  - id: MOD-005
+    text: Keep calibration and validation data logically separate.
+    status: planned
